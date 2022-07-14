@@ -1,0 +1,313 @@
+.welcome-text2,
+.welcome-text{
+    color: #d0d1d2;
+}
+.fl-wc{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bg-wc{
+    background-color: #082b49;
+}
+.icon-wc2{
+    color: #6fbf17;
+
+}
+.login{
+    display: flex;
+}
+.icon-wc,
+.welcome-text2{
+    padding: 15px 15px;
+}
+.fl-wc2{
+    display: flex;
+    padding-block: 40px;
+    justify-content: space-between;
+}
+.nav-pd{
+    padding: 50px 20px;
+}
+.btn-wc3,
+.btn-wc2{
+    padding: 13px 37px;
+    border-radius: 100px;
+    color: #fff;
+}
+.btn-wc2{
+    background-color: #6fbf17;
+    border: 1px solid #6fbf17;
+    margin-right: 10px;
+
+}
+.btn-wc3{
+    background-color: #df3f52;
+    border: 1px solid #df3f52;
+}
+.ml-3{
+    margin-right: 10px;
+}
+header {
+    background-image: url(../img/conmeo.jpg);
+    padding-bottom: 38%;
+    background-size: cover;
+}
+.header-pet{
+    float: right;
+    transform: translate(0, 50%);
+}
+.header-heading{
+    font-size: 55px;
+    color: #fff;
+    font-weight: normal;
+}
+.header-text{
+    margin-top: 30px;
+    font-size: 16px;
+    color: #fff;
+}
+.btn-pet{
+    background-color: #2457cf;
+    padding: 12px 30px;
+    border: 1px solid #2457cf;
+    color: #fff;
+    border-radius: 100px;
+}
+.services{
+    padding: 50px 0;
+    text-align: center;
+}
+.services-heading{
+    font-size: 47px;
+    font-weight: normal;
+}
+.list-services:hover{
+    border-bottom: 3px solid #2457cf;
+}
+.list-services{
+    padding: 0 0 20px 0;
+}
+.number {
+    border-radius: 1000px;
+    width: 45px;
+    height: 45px;
+    background-color: #6fbf17;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    align-items: center;
+}
+.icon-gift{
+    font-size: 50px;
+    color: #2457cf;
+    margin: 30px 0;
+}
+.heading-gif{
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+.gif-text{
+    font-size: 15px;
+    color: #5b6a76;
+}
+.gif-link{
+    color: #6fbf17;
+    text-decoration: none;
+    padding-bottom: 20px;
+
+}
+.gif-link>i{
+    font-size: 10px;
+}
+.dogcat{
+    width: 100%;
+    padding: 0 15px;
+}
+.petdg{
+    color: #2457cf;
+    font-weight: normal;
+    font-size: 50px;
+}
+.dog-cat-center{
+    color: #6fbf17;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 35px 0;
+}
+.dg-cat{
+    padding: 15px 25px;
+    position: relative;
+}
+.pd-50{
+    padding: 50px 0;
+}
+.dg-cat::after{
+    border-radius: 100%;
+    content: '';
+    width: 10px;
+    height: 10px;
+    background-color: #2457cf;
+    left: 0;
+    bottom: 35px;
+    position: absolute;
+}
+.btn-dc{
+    padding: 12px 20px;
+    border: 1px solid #6fbf17;
+    background-color: #6fbf17;
+    border-radius: 100px;
+    color: #fff;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.dc{
+    padding: 50px 0;
+}
+.bg-dog{
+    background-image: url(../img/bg2.jpg);
+    /* padding-bottom: 10%; */
+    padding: 80px 0;
+    background-size: cover;
+    background-position: center;
+}
+.heading-dog{
+    font-size: 47px;
+    font-weight: normal;
+    color: #df3f52;
+}
+.text-dog{
+    margin: 50px 0;
+    font-size: 15px;
+}
+.btn-dog{
+    background-color: #df3f52;
+    border-radius: 100px;
+    color: #fff;
+    border: 1px solid #df3f52;
+    padding: 20px 40px 20px 30px;
+    font-size: 15px;
+}
+.ourblog{
+    padding: 50px 0;
+}
+.ob-heading{
+    color: #2457cf;
+    font-size: 47px;
+    font-weight: normal;
+    position: relative;
+}
+.ob-heading::before{
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 3px;
+    background-color: #5b6a76;
+    bottom: -5px;
+    left: 49%;
+}
+.ourblog-head{
+    text-align: center;
+    
+}
+.ob-text{
+    color: #5b6a76;
+    font-size: 14px;
+    margin: 40px 0;
+}
+.img-ob{
+    width: 90%;
+    height: 250px;
+}
+.ar-ob{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ob-content{
+    padding: 30px 80px;
+    display: flex;
+    flex-direction: column;
+}
+.time-ob{
+    color: #2457cf;
+    text-decoration: none;
+    margin: 30px 0;
+}
+.ob-btn{
+    background-color: #2457cf;
+    color: #fff;
+    padding: 15px 20px;
+    border-radius: 100px;
+    border: 1px solid #2457cf;
+    width: 70%;
+}
+.ob-ct-text{
+    margin: 30px 0;
+}
+.ft-bg{
+    background-color: #07243e;
+    color: #fff;
+    text-align: center;
+}
+.pl-ft{
+    text-align: right;
+}
+.pl-ft2{
+    text-align: left;
+}
+footer{
+    padding: 50px 0 0 0;
+}
+.ft-bg {
+    padding: 90px 0;
+}
+.icon-itn {
+    display: flex;
+    justify-content: center;
+}
+.icon-ft{
+    padding: 8px;
+    font-size: 20px;
+}
+.ft-bg2{
+    text-align: center;
+    background-color: #051c2f;
+    padding: 20px;
+    color: #5b6a76;
+}
+.ft-bg2>p{
+    margin: 0;
+}
+@media (max-width: 768px){
+    .login{
+        display: none;
+
+    }
+    .welcome-text{
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+    .fl-wc {
+        display: flex;
+        /* justify-content: space-between; */
+        align-items: center;
+        justify-content: center;
+    }
+    .navbar{
+        display: none !important;
+    }
+    header {
+        background-image: url(/img/conmeo.jpg);
+        padding-bottom: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+    .intr{
+        text-align: center;
+    }
+}
